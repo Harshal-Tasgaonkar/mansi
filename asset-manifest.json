@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mansi/static/css/main.b90f3254.css",
-    "main.js": "/mansi/static/js/main.65b871a0.js",
+    "main.js": "/mansi/static/js/main.4af1cd45.js",
     "static/js/488.fe64eae2.chunk.js": "/mansi/static/js/488.fe64eae2.chunk.js",
     "static/media/01.jpg": "/mansi/static/media/01.7d7a27769ecd00652b56.jpg",
     "static/media/pump.png": "/mansi/static/media/pump.ea234cfd6a6e8416376f.png",
@@ -15,24 +15,24 @@
     "static/media/pump2.jpg": "/mansi/static/media/pump2.24fe5c42f378156b6827.jpg",
     "static/media/single.jpg": "/mansi/static/media/single.8deae30af22abeeceaf5.jpg",
     "static/media/contact.jpg": "/mansi/static/media/contact.5f1f1797fe13e165bfb4.jpg",
+    "static/media/logo.png": "/mansi/static/media/logo.f2fa554b0651cc937627.png",
     "static/media/pump11.jpg": "/mansi/static/media/pump11.7ac1e3f01a17f57d4dc1.jpg",
     "static/media/pump10.jpg": "/mansi/static/media/pump10.6f8d6310ee2c6cc016e1.jpg",
     "static/media/pump9.jpg": "/mansi/static/media/pump9.03f3dfe0f064b0811843.jpg",
     "static/media/borewell-pump.png": "/mansi/static/media/borewell-pump.d115ee9629c7b0bafaac.png",
     "static/media/04.jpg": "/mansi/static/media/04.76626ab3ea7cfbc1f58e.jpg",
     "static/media/pump8.webp": "/mansi/static/media/pump8.b8cf4331df48318d2057.webp",
-    "static/media/mansi1.jpeg": "/mansi/static/media/mansi1.4304b6a023e91f3132af.jpeg",
     "static/media/02.jpg": "/mansi/static/media/02.929114fb53a202b8655a.jpg",
     "static/media/03.jpg": "/mansi/static/media/03.e9223f05049d58caf7b3.jpg",
     "static/media/pump12.jpg": "/mansi/static/media/pump12.70e8199050610d5e712b.jpg",
     "static/media/pump4.jpg": "/mansi/static/media/pump4.578df47a55e9a29cb47f.jpg",
     "index.html": "/mansi/index.html",
     "main.b90f3254.css.map": "/mansi/static/css/main.b90f3254.css.map",
-    "main.65b871a0.js.map": "/mansi/static/js/main.65b871a0.js.map",
+    "main.4af1cd45.js.map": "/mansi/static/js/main.4af1cd45.js.map",
     "488.fe64eae2.chunk.js.map": "/mansi/static/js/488.fe64eae2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b90f3254.css",
-    "static/js/main.65b871a0.js"
+    "static/js/main.4af1cd45.js"
   ]
 }
