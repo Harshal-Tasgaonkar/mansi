@@ -1,8 +1,21 @@
-import React from 'react'
-import logo from '../assets/img/mansi1.jpeg'
+import React,{useEffect,useState} from 'react'
+import logo from '../assets/img/logo.png'
 import { Link } from 'react-router-dom'
 
 const Header = () => {
+
+  const [isFixed, setIsFixed] = useState(false); // State to track fixed position
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsFixed(window.scrollY > 50); // Update state based on scroll position
+    };
+
+    window.addEventListener('scroll', handleScroll); // Add scroll event listener
+    return () => window.removeEventListener('scroll', handleScroll); // Cleanup
+  }, []);
+
+
   return (
      
     <>
@@ -47,14 +60,14 @@ const Header = () => {
           <div className="header-top-right">
             <div className="header-top-social">
               <span>Follow Us: </span>
-              <Link to="https://www.facebook.com/mansiengg.in?mibextid=ZbWKwL">
+              <Link to="https://www.facebook.com/mansiengg.in?mibextid=ZbWKwL" target="_blank">
                 <i className="fab fa-facebook" />
               </Link>
-              <Link >
-                <i className="fa-brands fa-whatsapp" />
-              </Link>
+              <Link as="a" href="https://wa.me/8983349583" target="_blank" rel="noopener noreferrer">
+  <i className="fa-brands fa-whatsapp"></i>
+</Link>
               
-              <Link to="https://www.linkedin.com/company/mansi-engineering-electricals/">
+              <Link to="https://www.linkedin.com/company/mansi-engineering-electricals/" target="_blank">
                 <i className="fab fa-linkedin" />
               </Link>
             </div>
@@ -63,29 +76,29 @@ const Header = () => {
       </div>
     </div>
     <div className="main-navigation">
-      <nav className="navbar navbar-expand-lg ">
-        <div className="container position-relative">
-          <a className="navbar-brand" href="index.html">
-            <img src={logo} alt="logo" style={{ width: '200px', height: '50px' }} />
-          </a>
-          <div className="mobile-menu-right">
-            
-            <button
-              className="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#main_nav"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span className="navbar-toggler-mobile-icon">
-                <i className="fa-solid fa-bars" />
-              </span>
-            </button>
-          </div>
-          <div className="collapse navbar-collapse" id="main_nav">
-            <ul className="navbar-nav">
-              <li className="nav-item dropdown">
+    <nav className={`navbar navbar-expand-lg ${isFixed ? 'fixed-top' : ''}`}> {/* Updated className */}
+    <div className="container position-relative">
+      <a className="navbar-brand" href="index.html">
+      <img src={logo} alt="logo" style={{ width: '190px', height: '60px' }} />
+      </a>
+      <div className="mobile-menu-right">
+        
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#main_nav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-toggler-mobile-icon">
+            <i className="fa-solid fa-bars" />
+          </span>
+        </button>
+      </div>
+      <div className="collapse navbar-collapse" id="main_nav">
+        <ul className="navbar-nav">
+        <li className="nav-item dropdown">
                 <Link
                   className="nav-link  "
                   to="/"
@@ -93,23 +106,23 @@ const Header = () => {
                 >
                   Home
                 </Link>
-                
-              </li>
-              <li className="nav-item">
+                </li>
+                <li className="nav-item">
                 <Link className="nav-link" to="/about">
                   About
                 </Link>
               </li>
-              <li className="nav-item dropdown">
-                <a
-                  className="nav-link "
-                  href="index.html#"
-                  data-bs-toggle="dropdown"
-                >
-                  Services <i className="fa-solid fa-caret-down"></i>
-                </a>
-                <ul className="dropdown-menu fade-down">
-                  <li>
+          <li className="nav-item dropdown">
+            <a
+              className="nav-link "
+              href="#"
+              data-bs-toggle="dropdown"
+               aria-expanded="false"
+            >
+              Services <i className="fas fa-caret-down"></i>
+            </a>
+            <ul className="dropdown-menu fade-down">
+            <li>
                     <Link className="dropdown-item" to="/rental-services">
                     Rental Services
                     </Link>
@@ -129,18 +142,20 @@ const Header = () => {
                     Rebaring Services
                     </Link>
                   </li>
-                </ul>
-              </li>
-              <li className="nav-item dropdown">
-                <a
-                  className="nav-link "
-                  href="index.html#"
-                  data-bs-toggle="dropdown"
-                >
-                  Products <i className="fa-solid fa-caret-down"></i>
-                </a>
-                <ul className="dropdown-menu fade-down">
-                  <li>
+            </ul>
+          </li>
+          <li className="nav-item dropdown">
+            <a
+              className="nav-link "
+              href="#"
+              data-bs-toggle="dropdown"
+               aria-expanded="false"
+            >
+              Products <i className="fas fa-caret-down"></i>
+            </a>
+            <ul className="dropdown-menu fade-down">
+              
+            <li>
                     <Link className="dropdown-item" to="/dewatering-pump">
                     Dewatering Pump
                     </Link>
@@ -160,48 +175,48 @@ const Header = () => {
                     Borewell Pump
                     </Link>
                   </li>
-                 
-                  
-                  
-                </ul>
-              </li>
              
               
-              <li className="nav-item">
+            </ul>
+          </li>
+          
+          <li className="nav-item">
                 <Link className="nav-link" to="/contact">
                   Contact
                 </Link>
               </li>
-            </ul>
-            <div className="nav-right">
-              
-              <div className="nav-right-btn mt-2">
-                <a href="contact.html" className="theme-btn">
-                  Get A Quote
-                  <i className="fas fa-arrow-right-long" />
-                </a>
-              </div>
-            </div>
+         
+        </ul>
+        <div className="nav-right">
+          
+          <div className="nav-right-btn mt-2">
+            <a href="contact.html" className="theme-btn">
+              Get A Quote
+              <i className="fas fa-arrow-right-long" />
+            </a>
           </div>
-          {/* search area */}
-          <div className="search-area">
-            <form action="index.html#">
-              <div className="form-group">
-                <input
-                  type="text"
-                  className="form-control"
-                  placeholder="Type Keyword..."
-                />
-                <button type="submit" className="search-icon-btn">
-                  <i className="far fa-search" />
-                </button>
-              </div>
-            </form>
-          </div>
-          {/* search area end */}
         </div>
-      </nav>
+      </div>
+      {/* search area */}
+      <div className="search-area">
+        <form action="index.html#">
+          <div className="form-group">
+            <input
+              type="text"
+              className="form-control"
+              placeholder="Type Keyword..."
+            />
+            <button type="submit" className="search-icon-btn">
+              <i className="far fa-search" />
+            </button>
+          </div>
+        </form>
+      </div>
+      {/* search area end */}
     </div>
+  </nav>
+</div>
+
   </header>
   {/* header area end */}
 

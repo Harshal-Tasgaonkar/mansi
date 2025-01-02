@@ -790,6 +790,7 @@ label {
   top: 0;
   bottom: -1px;
   width: 55%;
+  
   background: var(--theme-color);
   clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%);
   z-index: -1;

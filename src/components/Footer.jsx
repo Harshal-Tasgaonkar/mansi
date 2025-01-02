@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../assets/img/mansi1.jpeg'
+import logo from '../assets/img/logo.png'
 import { Link } from 'react-router-dom'
 
 const Footer = () => {
@@ -16,7 +16,7 @@ const Footer = () => {
           <div className="col-md-6 col-lg-4">
             <div className="footer-widget-box about-us">
               <a href="index.html" className="footer-logo">
-                <img src={logo} alt="" style={{ width: '220px', height: '65px' }}/>
+                <img src={logo} alt="" style={{ width: '220px', height: '75px' }}/>
               </a>
               <p className="mb-3">
               Mansi Engineering & Electricals is a trusted leader in water handling solutions, offering a wide range of pumps for diverse applications.
