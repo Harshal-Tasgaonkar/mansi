@@ -4,6 +4,7 @@ import Footer from './Footer'
 import service from '../assets/img/service/single.jpg'
 import { Link } from 'react-router-dom'
 import pump10 from '../assets/img/pump10.jpg'
+import breadcrumb from '../assets/img/breadcrumb/01.jpg'
 
 const RentalServices = () => {
   return (
@@ -15,7 +16,7 @@ const RentalServices = () => {
   {/* breadcrumb */}
   <div
     className="site-breadcrumb"
-    style={{ background: "url(assets/img/breadcrumb/01.jpg)" }}
+    style={{ backgroundImage: `url(${breadcrumb})` }}
   >
     <div className="container">
       <h2 className="breadcrumb-title">Rental Services</h2>
@@ -23,7 +24,7 @@ const RentalServices = () => {
         <li>
           <Link to="/">Home</Link>
         </li>
-        <li className="active"><i className="fa-solid fa-angles-right"></i>Rental Services</li>
+        <li className="active"><i className="fa-solid fa-angles-right me-1"></i>Rental Services</li>
       </ul>
     </div>
   </div>

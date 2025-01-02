@@ -47,25 +47,23 @@ const Header = () => {
           <div className="header-top-right">
             <div className="header-top-social">
               <span>Follow Us: </span>
-              <a href="index.html#">
+              <Link to="https://www.facebook.com/mansiengg.in?mibextid=ZbWKwL">
                 <i className="fab fa-facebook" />
-              </a>
-              <a href="index.html#">
-                <i className="fab fa-twitter" />
-              </a>
-              <a href="index.html#">
-                <i className="fab fa-instagram" />
-              </a>
-              <a href="index.html#">
+              </Link>
+              <Link >
+                <i className="fa-brands fa-whatsapp" />
+              </Link>
+              
+              <Link to="https://www.linkedin.com/company/mansi-engineering-electricals/">
                 <i className="fab fa-linkedin" />
-              </a>
+              </Link>
             </div>
           </div>
         </div>
       </div>
     </div>
     <div className="main-navigation">
-      <nav className="navbar navbar-expand-lg">
+      <nav className="navbar navbar-expand-lg ">
         <div className="container position-relative">
           <a className="navbar-brand" href="index.html">
             <img src={logo} alt="logo" style={{ width: '200px', height: '50px' }} />

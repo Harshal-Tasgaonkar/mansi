@@ -15,11 +15,18 @@ import pump1 from '../assets/img/pump1.jpg'
 import pump2 from '../assets/img/pump2.jpg'
 import pump11 from '../assets/img/pump11.jpg'
 import pump12 from '../assets/img/pump12.jpg'
-import submersible from '../assets/img/submersible-pump.jpg' 
+import submersible from '../assets/img/submersible-pump.png' 
 import pump8 from '../assets/img/pump8.webp'
 import pump9 from '../assets/img/pump9.jpg'
 import pump10 from '../assets/img/pump10.jpg'
 import pump4 from '../assets/img/pump4.jpg'
+import borewellpump from '../assets/img/borewell-pump.png'
+import pump from '../assets/img/pump.png'
+import pump13 from '../assets/img/pump13.png'
+import worker from '../assets/img/worker.png'
+import review from '../assets/img/review.png'
+import project from '../assets/img/project-management.png'
+import guarantee from '../assets/img/guaranteed.png'
 
 
 
@@ -46,6 +53,9 @@ const Home = () => {
                 '<i class="fas fa-chevron-right"></i>',
             ],
         });
+
+        
+
     }, []);
 
     return (
@@ -200,10 +210,10 @@ const Home = () => {
             </div>
             <div className="about-experience">
               <div className="about-experience-icon">
-                <i className="icon-plug" />
+                <i className="fa-solid fa-plug" />
               </div>
               <b className="text-start">
-                30 Years Of <br /> Quality Service
+                20 Years Of <br /> Quality Service
               </b>
             </div>
           </div>
@@ -262,7 +272,7 @@ const Home = () => {
             <div className="service-img">
               <img src={pump12} alt="" />
               <div className="service-icon">
-                <i className="icon-electric" />
+                <i className="fa-solid fa-screwdriver-wrench" />
               </div>
             </div>
             <div className="service-content">
@@ -286,7 +296,7 @@ const Home = () => {
             <div className="service-img">
               <img src={pump12} alt="" />
               <div className="service-icon">
-                <i className="icon-air-conditioning" />
+                <i className="fa-solid fa-wrench" />
               </div>
             </div>
             <div className="service-content">
@@ -310,7 +320,7 @@ const Home = () => {
             <div className="service-img">
               <img src={pump12} alt="" />
               <div className="service-icon">
-                <i className="icon-cctv-camera" />
+                <i className="fa-solid fa-screwdriver-wrench" />
               </div>
             </div>
             <div className="service-content">
@@ -334,7 +344,7 @@ const Home = () => {
             <div className="service-img">
               <img src={pump12} alt="" />
               <div className="service-icon">
-                <i className="icon-light-bulb-1" />
+                <i className="fa-solid fa-screwdriver" />
               </div>
             </div>
             <div className="service-content">
@@ -380,7 +390,7 @@ const Home = () => {
         <div className="col-md-6 col-lg-3">
           <div className="team-item wow fadeInUp" data-wow-delay=".25s">
             <div className="team-img">
-              <img src={pump9} alt="thumb" />
+              <img src={submersible} alt="thumb" />
             </div>
             
             <div className="team-content">
@@ -418,7 +428,7 @@ const Home = () => {
         <div className="col-md-6 col-lg-3">
           <div className="team-item wow fadeInUp" data-wow-delay=".75s">
             <div className="team-img">
-              <img src={pump9} alt="thumb" />
+              <img src={pump} alt="thumb" />
             </div>
             
             <div className="team-content">
@@ -436,8 +446,8 @@ const Home = () => {
         </div>
         <div className="col-md-6 col-lg-3">
           <div className="team-item wow fadeInUp" data-wow-delay="1s">
-            <div className="team-img">
-              <img src={pump10} alt="thumb" />
+            <div className="team-img ">
+              <img className="bg-secondary" src={borewellpump} alt="thumb" />
             </div>
            
             <div className="team-content">
@@ -457,6 +467,91 @@ const Home = () => {
     </div>
   </div>
   {/* team-area end */}
+
+
+  
+  {/* counter area */}
+  <div className="counter-area pt-50 pb-50">
+    <div className="container">
+      <div className="row">
+        <div className="col-lg-3 col-sm-6">
+          <div className="counter-box">
+            <div className="icon">
+              <img src={project} alt="" />
+            </div>
+            <div>
+              <span
+                className="counter"
+                data-count="+"
+                data-to={500}
+                data-speed={3000}
+              >
+                500
+              </span>
+              <h6 className="title">+ Projects Done </h6>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-3 col-sm-6">
+          <div className="counter-box">
+            <div className="icon">
+              <img src={review} alt="" />
+            </div>
+            <div>
+              <span
+                className="counter"
+                data-count="+"
+                data-to={900}
+                data-speed={3000}
+              >
+                900
+              </span>
+              <h6 className="title">+ Happy Clients</h6>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-3 col-sm-6">
+          <div className="counter-box">
+            <div className="icon">
+              <img src={worker} alt="" />
+            </div>
+            <div>
+              <span
+                className="counter"
+                data-count="+"
+                data-to={1500}
+                data-speed={3000}
+              >
+                1500
+              </span>
+              <h6 className="title">+ Experienced Staff</h6>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-3 col-sm-6">
+          <div className="counter-box">
+            <div className="icon">
+              <img src={guarantee} alt="" />
+            </div>
+            <div>
+              <span
+                className="counter"
+                data-count="+"
+                data-to={30}
+                data-speed={3000}
+              >
+                30
+              </span>
+              <h6 className="title">+ Win Awards</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {/* counter area end */}
+
+
 
 
   
@@ -489,7 +584,7 @@ const Home = () => {
             <div className="choose-wrapper">
               <div className="choose-item">
                 <div className="choose-icon">
-                  <i className="icon-worker" />
+                  <i className="fa-solid fa-screwdriver-wrench" />
                 </div>
                 <div className="choose-item-content">
                   <h4>Extensive Pump Fleet</h4>
@@ -498,7 +593,7 @@ const Home = () => {
               </div>
               <div className="choose-item">
                 <div className="choose-icon">
-                  <i className="icon-office-building" />
+                  <i className="fa-solid fa-user" />
                 </div>
                 <div className="choose-item-content">
                   <h4>Expert Guidance</h4>
@@ -507,7 +602,7 @@ const Home = () => {
               </div>
               <div className="choose-item">
                 <div className="choose-icon">
-                  <i className="icon-office-building" />
+                  <i className="fa-solid fa-chart-line" />
                 </div>
                 <div className="choose-item-content">
                   <h4>Reliable Performance</h4>
@@ -516,7 +611,7 @@ const Home = () => {
               </div>
               <div className="choose-item">
                 <div className="choose-icon">
-                  <i className="icon-office-building" />
+                  <i className="fa-solid fa-truck-fast" />
                 </div>
                 <div className="choose-item-content">
                   <h4>On time Delivery</h4>
@@ -525,7 +620,7 @@ const Home = () => {
               </div>
               <div className="choose-item">
                 <div className="choose-icon">
-                  <i className="icon-office-building" />
+                  <i className="fa-solid fa-wrench" />
                 </div>
                 <div className="choose-item-content">
                   <h4>Cost-Effective Solutions</h4>
@@ -535,7 +630,7 @@ const Home = () => {
               
               <div className="choose-item">
                 <div className="choose-icon">
-                  <i className="icon-office-building" />
+                  <i className="fa-solid fa-screwdriver" />
                 </div>
                 <div className="choose-item-content">
                   <h4>Exceptional Customer Support</h4>
@@ -697,7 +792,7 @@ const Home = () => {
               injected humour, or randomised words which don't look even.
             </p>
             <div className="faq-img card">
-              <img src={pump4} alt="" />
+              <img src={pump13} alt="" />
             </div>
           </div>
         </div>

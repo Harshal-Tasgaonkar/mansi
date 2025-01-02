@@ -57,25 +57,11 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <a href="index.html#">
-                    <i className="fas fa-caret-right" /> Testimonials
-                  </a>
+                  <Link to="/contact">
+                    <i className="fas fa-caret-right" /> Contact
+                  </Link>
                 </li>
-                <li>
-                  <a href="index.html#">
-                    <i className="fas fa-caret-right" /> Terms Of Service
-                  </a>
-                </li>
-                <li>
-                  <a href="index.html#">
-                    <i className="fas fa-caret-right" /> Privacy policy
-                  </a>
-                </li>
-                <li>
-                  <a href="index.html#">
-                    <i className="fas fa-caret-right" /> Update News
-                  </a>
-                </li>
+               
               </ul>
             </div>
           </div>
@@ -84,58 +70,58 @@ const Footer = () => {
               <h4 className="footer-widget-title">Our Services</h4>
               <ul className="footer-list">
                 <li>
-                  <a href="index.html#">
-                    <i className="fas fa-caret-right" /> Air Conditioning
-                  </a>
+                  <Link to="/rental-services">
+                    <i className="fas fa-caret-right" /> Rental Services
+                  </Link>
                 </li>
                 <li>
-                  <a href="index.html#">
-                    <i className="fas fa-caret-right" /> Electrical Panels
-                  </a>
+                  <Link to="/pump-repairing-services">
+                    <i className="fas fa-caret-right" /> Pump Repairing Services
+                  </Link>
                 </li>
                 <li>
-                  <a href="index.html#">
-                    <i className="fas fa-caret-right" /> Electrical Services
-                  </a>
+                  <Link to="/dewatering-pump-hiring-services">
+                    <i className="fas fa-caret-right" /> Dewatering Pump Hiring Services
+                  </Link>
                 </li>
                 <li>
-                  <a href="index.html#">
-                    <i className="fas fa-caret-right" /> Security System
-                  </a>
+                  <Link to="/rebaring-services">
+                    <i className="fas fa-caret-right" /> Rebaring Service
+                  </Link>
                 </li>
-                <li>
-                  <a href="index.html#">
-                    <i className="fas fa-caret-right" /> Surge Protection
-                  </a>
-                </li>
-                <li>
-                  <a href="index.html#">
-                    <i className="fas fa-caret-right" /> Indoor Lighting
-                  </a>
-                </li>
+                
               </ul>
             </div>
           </div>
           <div className="col-md-6 col-lg-3">
             <div className="footer-widget-box list">
-              <h4 className="footer-widget-title">Newsletter</h4>
-              <div className="footer-newsletter">
-                <p>Subscribe Our Newsletter To Get Latest Update And News</p>
-                <div className="subscribe-form">
-                  <form action="index.html#">
-                    <input
-                      type="email"
-                      className="form-control"
-                      placeholder="Your Email"
-                    />
-                    <button className="theme-btn" type="submit">
-                      Subscribe Now <i className="far fa-paper-plane" />
-                    </button>
-                  </form>
-                </div>
-              </div>
+              <h4 className="footer-widget-title">Our Products</h4>
+              <ul className="footer-list">
+                <li>
+                  <Link to="/dewatering-pump">
+                    <i className="fas fa-caret-right" />  Dewatering Pump
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/water-pump">
+                    <i className="fas fa-caret-right" />  Water Pump
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/booster-pump">
+                    <i className="fas fa-caret-right" /> Booster Pump
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/borewell-pump">
+                    <i className="fas fa-caret-right" />  Borewell Pump
+                  </Link>
+                </li>
+                
+              </ul>
             </div>
           </div>
+         
         </div>
       </div>
     </div>
@@ -151,25 +137,21 @@ const Footer = () => {
           <div className="col-md-6 align-self-center">
             <ul className="footer-social">
               <li>
-                <a href="index.html#">
+                <Link to="https://www.facebook.com/mansiengg.in?mibextid=ZbWKwL">
                   <i className="fab fa-facebook-f" />
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="index.html#">
-                  <i className="fab fa-twitter" />
-                </a>
+                <Link >
+                  <i className="fa-brands fa-whatsapp" />
+                </Link>
               </li>
               <li>
-                <a href="index.html#">
+                <Link to="https://www.linkedin.com/company/mansi-engineering-electricals/">
                   <i className="fab fa-linkedin-in" />
-                </a>
+                </Link>
               </li>
-              <li>
-                <a href="index.html#">
-                  <i className="fab fa-youtube" />
-                </a>
-              </li>
+             
             </ul>
           </div>
         </div>

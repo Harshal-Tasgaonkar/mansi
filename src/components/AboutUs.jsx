@@ -4,6 +4,11 @@ import Footer from './Footer'
 import about from '../assets/img/about/01.jpg' 
 import pump8 from '../assets/img/pump8.webp'
 import { Link } from 'react-router-dom'
+import breadcrumb from '../assets/img/breadcrumb/01.jpg'
+import worker from '../assets/img/worker.png'
+import review from '../assets/img/review.png'
+import project from '../assets/img/project-management.png'
+import guarantee from '../assets/img/guaranteed.png'
 
 const AboutUs = () => {
   return (
@@ -17,7 +22,7 @@ const AboutUs = () => {
   {/* breadcrumb */}
   <div
     className="site-breadcrumb"
-    style={{ background: "url(assets/img/breadcrumb/01.jpg)" }}
+    style={{ backgroundImage: `url(${breadcrumb})` }}
   >
     <div className="container">
       <h2 className="breadcrumb-title">About Us</h2>
@@ -25,7 +30,7 @@ const AboutUs = () => {
         <li>
           <Link to="/">Home</Link>
         </li>
-        <li className="active"><i className="fa-solid fa-angles-right"></i>About Us</li>
+        <li className="active"><i className="fa-solid fa-angles-right me-1"></i>About Us</li>
       </ul>
     </div>
   </div>
@@ -43,7 +48,7 @@ const AboutUs = () => {
                 <img src={pump8} alt="" />
               </div>
               <div className="about-experience">
-                <div className="about-experience-icon">
+                <div className="fa-solid fa-plug">
                   <i className="icon-plug" />
                 </div>
                 <b className="text-start">
@@ -81,6 +86,88 @@ const AboutUs = () => {
       </div>
     </div>
     {/* about area end */}
+
+
+     {/* counter area */}
+  <div className="counter-area pt-50 pb-50">
+    <div className="container">
+      <div className="row">
+        <div className="col-lg-3 col-sm-6">
+          <div className="counter-box">
+            <div className="icon">
+              <img src={project} alt="" />
+            </div>
+            <div>
+              <span
+                className="counter"
+                data-count="+"
+                data-to={500}
+                data-speed={3000}
+              >
+                500
+              </span>
+              <h6 className="title">+ Projects Done </h6>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-3 col-sm-6">
+          <div className="counter-box">
+            <div className="icon">
+              <img src={review} alt="" />
+            </div>
+            <div>
+              <span
+                className="counter"
+                data-count="+"
+                data-to={900}
+                data-speed={3000}
+              >
+                900
+              </span>
+              <h6 className="title">+ Happy Clients</h6>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-3 col-sm-6">
+          <div className="counter-box">
+            <div className="icon">
+              <img src={worker} alt="" />
+            </div>
+            <div>
+              <span
+                className="counter"
+                data-count="+"
+                data-to={1500}
+                data-speed={3000}
+              >
+                1500
+              </span>
+              <h6 className="title">+ Experienced Staff</h6>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-3 col-sm-6">
+          <div className="counter-box">
+            <div className="icon">
+              <img src={guarantee} alt="" />
+            </div>
+            <div>
+              <span
+                className="counter"
+                data-count="+"
+                data-to={30}
+                data-speed={3000}
+              >
+                30
+              </span>
+              <h6 className="title">+ Win Awards</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {/* counter area end */}
   
   </main>
 

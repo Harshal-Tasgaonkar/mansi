@@ -1,8 +1,10 @@
 import React from 'react'
 import Header from './Header'
 import Footer from './Footer'
-import contact from '../assets/img/contact/01.jpg'
+// import contact from '../assets/img/contact/01.jpg'
 import { Link } from 'react-router-dom'
+import breadcrumb from '../assets/img/breadcrumb/01.jpg'
+import contact from '../assets/img/contact.jpg'
 
 const Contact = () => {
   return (
@@ -14,7 +16,7 @@ const Contact = () => {
   {/* breadcrumb */}
   <div
     className="site-breadcrumb"
-    style={{ background: "url(assets/img/breadcrumb/01.jpg)" }}
+    style={{ backgroundImage: `url(${breadcrumb})` }}
   >
     <div className="container">
       <h2 className="breadcrumb-title">Contact Us</h2>
@@ -22,7 +24,7 @@ const Contact = () => {
         <li>
           <Link to="/">Home</Link>
         </li>
-        <li className="active"><i className="fa-solid fa-angles-right"></i>Contact Us</li>
+        <li className="active"><i className="fa-solid fa-angles-right me-1"></i>Contact Us</li>
       </ul>
     </div>
   </div>
@@ -35,7 +37,7 @@ const Contact = () => {
           <div className="col-md-3">
             <div className="contact-info">
               <div className="contact-info-icon">
-                <i className="fal fa-map-location-dot" />
+                <i className="fa fa-map-marker-alt" />
               </div>
               <div className="contact-info-content">
                 <h5>Address</h5>
@@ -47,7 +49,7 @@ const Contact = () => {
           <div className="col-md-3">
             <div className="contact-info">
               <div className="contact-info-icon">
-                <i className="fal fa-phone-volume" />
+                <i className="fa fa-phone-alt" />
               </div>
               <div className="contact-info-content">
                 <h5>Call Us</h5>
@@ -58,7 +60,7 @@ const Contact = () => {
           <div className="col-md-3">
             <div className="contact-info">
               <div className="contact-info-icon">
-                <i className="fal fa-envelopes" />
+                <i className="fa fa-envelope" />
               </div>
               <div className="contact-info-content">
                 <h5>Email Us</h5>
@@ -71,7 +73,7 @@ const Contact = () => {
           <div className="col-md-3">
             <div className="contact-info">
               <div className="contact-info-icon">
-                <i className="fal fa-alarm-clock" />
+                <i className="fa-regular fa-clock" />
               </div>
               <div className="contact-info-content">
                 <h5>Open Time</h5>

@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{ useState, useEffect }  from 'react';
 import './assets/css/style.css'
 import { HashRouter, Routes, Route } from "react-router-dom";
 import Home from './components/Home';
@@ -12,9 +12,27 @@ import RentalServices from './components/RentalServices';
 import PumpRepairingServices from './components/PumpRepairingServices';
 import DewateringPumpHiringServices from './components/DewateringPumpHiringServices';
 import RebaringServices from './components/RebaringServices';
+import PreLoader from './components/PreLoader';
 
 
 function App() {
+
+
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    // Simulate a loading delay
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+
+    return () => clearTimeout(timer); // Clean up the timer
+  }, []);
+
+  if (loading) {
+    return <PreLoader />;
+  }
+
   return (
     
   <>
