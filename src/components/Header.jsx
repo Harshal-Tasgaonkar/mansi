@@ -60,8 +60,8 @@ const Header = () => {
                 <i className="fab fa-facebook" />
               </Link>
               <Link
-  as="a"
-  href="https://wa.me/8983349583"
+  
+  to="https://wa.me/918482858686"
   target="_blank"
   rel="noopener noreferrer"
 >

@@ -142,7 +142,9 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link >
+                <Link to="https://wa.me/918482858686"
+  target="_blank"
+  rel="noopener noreferrer" >
                   <i className="fa-brands fa-whatsapp" />
                 </Link>
               </li>
