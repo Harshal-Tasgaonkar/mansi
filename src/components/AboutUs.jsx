@@ -39,7 +39,7 @@ const AboutUs = () => {
 
 
    {/* about area */}
-    <div className="about-area py-120">
+    <div className="about-area py-120 ">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-6">
@@ -89,7 +89,7 @@ const AboutUs = () => {
 
 
      {/* counter area */}
-  <div className="counter-area pt-50 pb-50">
+  <div className="counter-area pt-50 pb-50 mb-90">
     <div className="container">
       <div className="row">
         <div className="col-lg-3 col-sm-6">
