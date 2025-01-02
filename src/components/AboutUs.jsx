@@ -52,7 +52,7 @@ const AboutUs = () => {
                   <i className="icon-plug" />
                 </div>
                 <b className="text-start">
-                  30 Years Of <br /> Quality Service
+                  20 Years Of <br /> Quality Service
                 </b>
               </div>
             </div>

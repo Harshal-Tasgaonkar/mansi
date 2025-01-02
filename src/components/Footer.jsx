@@ -16,7 +16,7 @@ const Footer = () => {
           <div className="col-md-6 col-lg-4">
             <div className="footer-widget-box about-us">
               <a href="index.html" className="footer-logo">
-                <img src={logo} alt="" style={{ width: '220px', height: '75px' }}/>
+                <img src={logo} alt="" style={{ width: '200px', height: '80px' }}/>
               </a>
               <p className="mb-3">
               Mansi Engineering & Electricals is a trusted leader in water handling solutions, offering a wide range of pumps for diverse applications.
@@ -42,7 +42,7 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-          <div className="col-md-6 col-lg-2">
+          <div className="col-md-6 col-lg-2 mt-4">
             <div className="footer-widget-box list">
               <h4 className="footer-widget-title">Quick Links</h4>
               <ul className="footer-list">
@@ -65,7 +65,7 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-          <div className="col-md-6 col-lg-3">
+          <div className="col-md-6 col-lg-3 mt-4">
             <div className="footer-widget-box list">
               <h4 className="footer-widget-title">Our Services</h4>
               <ul className="footer-list">
@@ -93,7 +93,7 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-          <div className="col-md-6 col-lg-3">
+          <div className="col-md-6 col-lg-3 mt-4">
             <div className="footer-widget-box list">
               <h4 className="footer-widget-title">Our Products</h4>
               <ul className="footer-list">

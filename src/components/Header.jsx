@@ -38,16 +38,12 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://live.themewild.com/cdn-cgi/l/email-protection#b2dbdcd4ddf2d7cad3dfc2ded79cd1dddf">
-                    <i className="fa fa-envelope me-1" />
-                    <span
-                      className="__cf_email__"
-                      data-cfemail="462f28202906233e272b362a236825292b"
-                    >
-                      sales@mansiengg.com
-                    </span>
-                  </a>
-                </li>
+  <Link to="mailto:sales@mansiengg.com">
+    <i className="fa fa-envelope me-1" />
+    <span>sales@mansiengg.com</span>
+  </Link>
+</li>
+
                 <li>
                   <a href="tel:+21236547898">
                     <i className="fa fa-phone-alt" /> +91 84828 58686
@@ -63,9 +59,15 @@ const Header = () => {
               <Link to="https://www.facebook.com/mansiengg.in?mibextid=ZbWKwL" target="_blank">
                 <i className="fab fa-facebook" />
               </Link>
-              <Link as="a" href="https://wa.me/8983349583" target="_blank" rel="noopener noreferrer">
+              <Link
+  as="a"
+  href="https://wa.me/8983349583"
+  target="_blank"
+  rel="noopener noreferrer"
+>
   <i className="fa-brands fa-whatsapp"></i>
 </Link>
+
               
               <Link to="https://www.linkedin.com/company/mansi-engineering-electricals/" target="_blank">
                 <i className="fab fa-linkedin" />
@@ -79,7 +81,7 @@ const Header = () => {
     <nav className={`navbar navbar-expand-lg ${isFixed ? 'fixed-top' : ''}`}> {/* Updated className */}
     <div className="container position-relative">
       <a className="navbar-brand" href="index.html">
-      <img src={logo} alt="logo" style={{ width: '190px', height: '60px' }} />
+      <img src={logo} alt="logo" style={{ width: '190px', height: '80px' }} />
       </a>
       <div className="mobile-menu-right">
         
