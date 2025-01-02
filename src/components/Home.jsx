@@ -218,7 +218,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="col-lg-6" data-aos="fade-right" data-aos-delay="250" data-aos-duration="3000">
+      <div className="col-lg-6" data-aos="fade-right" data-aos-delay="250" >
         <div className="about-right">
           <div className="site-heading mb-3">
             <span className="site-title-tagline">
