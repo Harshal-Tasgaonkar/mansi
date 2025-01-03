@@ -1,5 +1,8 @@
-import React, { useEffect } from "react";
+
+
+import React, { useEffect, useRef } from 'react';
 import Header from './Header'
+
 
 import choose from '../assets/img/choose/01.jpg'
 
@@ -34,6 +37,8 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
 
+  const counterRef = useRef(null); // Ref for counter area
+
   useEffect(() => {
     // Initialize Owl Carousel
     window.$(".hero-slider").owlCarousel({
@@ -52,9 +57,50 @@ const Home = () => {
       ],
     });
 
+    const options = {
+      root: null, // Use the viewport as the root
+      threshold: 0.5, // Trigger when 50% of the counter area is in view
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          // Trigger the counting animation when in view
+          startCounter();
+        }
+      });
+    }, options);
+
+    observer.observe(counterRef.current);
+
+    return () => {
+      observer.disconnect(); // Clean up observer
+    };
+
 
 
   }, []);
+
+  
+  const startCounter = () => {
+    const counters = document.querySelectorAll('.counter');
+    counters.forEach((counter) => {
+      const countTo = counter.getAttribute('data-to');
+      let currentCount = 0;
+      const speed = counter.getAttribute('data-speed');
+      const increment = Math.ceil(countTo / (speed / 100));
+
+      const interval = setInterval(() => {
+        currentCount += increment;
+        if (currentCount >= countTo) {
+          currentCount = countTo;
+          clearInterval(interval);
+        }
+        counter.innerText = currentCount;
+      }, 100);
+    });
+  };
+
 
   return (
 
@@ -216,7 +262,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="col-lg-6" data-aos="fade-right" data-aos-delay="250" >
+      <div className="col-lg-6" data-aos="fade-right" data-aos-delay="250" data-aos-duration="3000" >
         <div className="about-right">
           <div className="site-heading mb-3">
             <span className="site-title-tagline">
@@ -468,7 +514,7 @@ const Home = () => {
 
 
         {/* counter area */}
-        <div className="counter-area pt-50 pb-50">
+        <div className="counter-area pt-50 pb-50 mb-90" ref={counterRef}>
           <div className="container">
             <div className="row">
               <div className="col-lg-3 col-sm-6">
@@ -485,7 +531,7 @@ const Home = () => {
                     >
                       500
                     </span>
-                    <h6 className="title">+ Projects Done </h6>
+                    <h6 className="title">+ Projects Done</h6>
                   </div>
                 </div>
               </div>
@@ -547,7 +593,6 @@ const Home = () => {
           </div>
         </div>
         {/* counter area end */}
-
 
 
 
