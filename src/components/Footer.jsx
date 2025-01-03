@@ -1,15 +1,42 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
 import logo from '../assets/img/logo.png'
 import { Link } from 'react-router-dom'
 
 const Footer = () => {
+
+  const [isVisible, setIsVisible] = useState(false);
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  };
+
+  const handleScroll = () => {
+    if (window.scrollY > 100) {
+      setIsVisible(true);
+    } else {
+      setIsVisible(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+
   return (
    
   <>
   
   <div id="whatsapp-chat-container">
     <a href="https://wa.me/918482858686?text=Hi,%20I%20would%20like%20to%20know%20more%20about%20your%20services" target="_blank">
-        {/* <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Chat" id="whatsapp-icon" /> */}
+         
         <i id="whatsapp-icon" className="fa-brands fa-whatsapp fa-shake"></i>
     </a>
 </div>
@@ -174,7 +201,11 @@ const Footer = () => {
   </footer>
   {/* footer area end */}
 
-
+  {isVisible && (
+        <Link to="#" id="scroll-top" className="active" onClick={scrollToTop}>
+          <i className="fa-solid fa-chevron-up" />
+        </Link>
+      )}
 
   </>
 
