@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom'
 import service from '../assets/img/service/single.jpg'
 import pump10 from '../assets/img/pump10.jpg'
 import breadcrumb from '../assets/img/breadcrumb/01.jpg'
+import subersibleservice from '../assets/img/submersible-pump-service.jpg'
 
 const DewateringPumpHiringServices = () => {
   return (
@@ -66,7 +67,7 @@ const DewateringPumpHiringServices = () => {
           <div className="col-xl-8 col-lg-8">
             <div className="service-details">
               <div className="service-details-img mb-30">
-                <img src={pump10} alt="thumb" />
+                <img src={subersibleservice} alt="thumb" />
               </div>
               <div className="service-details">
                 <h3 className="mb-20">Dewatering Pump Hiring Services</h3>

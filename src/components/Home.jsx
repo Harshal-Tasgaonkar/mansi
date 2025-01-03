@@ -1,32 +1,30 @@
 import React, { useEffect } from "react";
 import Header from './Header'
-import about from '../assets/img/about/01.jpg'
-import service1 from '../assets/img/service/01.jpg'
-import service2 from '../assets/img/service/02.jpg'
-import service3 from '../assets/img/service/03.jpg'
-import service4 from '../assets/img/service/04.jpg'
-import faq from '../assets/img/faq/01.jpg'
+
 import choose from '../assets/img/choose/01.jpg'
-import team1 from '../assets/img/team/01.jpg'
-import team2 from '../assets/img/team/02.jpg'
-import team3 from '../assets/img/team/03.jpg'
-import team4 from '../assets/img/team/04.jpg'
+
 import pump1 from '../assets/img/pump1.jpg'
 import pump2 from '../assets/img/pump2.jpg'
 import pump11 from '../assets/img/pump11.jpg'
 import pump12 from '../assets/img/pump12.jpg'
-import submersible from '../assets/img/submersible-pump.png'
+import submersible from '../assets/img/submersible-pump.jpg'
 import pump8 from '../assets/img/pump8.webp'
 import pump9 from '../assets/img/pump9.jpg'
 import pump10 from '../assets/img/pump10.jpg'
 import pump4 from '../assets/img/pump4.jpg'
-import borewellpump from '../assets/img/borewell-pump.png'
+import borewellpump from '../assets/img/borewell-submersible-pump.png'
 import pump from '../assets/img/pump.png'
 import pump13 from '../assets/img/pump13.png'
 import worker from '../assets/img/worker.png'
 import review from '../assets/img/review.png'
 import project from '../assets/img/project-management.png'
 import guarantee from '../assets/img/guaranteed.png'
+import waterpump from '../assets/img/water-pump.jpeg'
+import pumpservice from '../assets/img/pump-service.jpg'
+import BorewellPumpservice from '../assets/img/borewell-pump-service.jpg'
+import waterpumpservice from '../assets/img/water-pump-service.jpg'
+import subersibleservice from '../assets/img/submersible-pump-service.jpg'
+
 
 
 
@@ -213,7 +211,7 @@ const Home = () => {
               <i className="fa-solid fa-plug" />
             </div>
             <b className="text-start">
-              20 Years Of <br /> Quality Service
+              25 Years Of <br /> Quality Service
             </b>
           </div>
         </div>
@@ -229,7 +227,7 @@ const Home = () => {
             </h2>
           </div>
           <p className="about-text">
-            Founded in 2004, Mansi Engineering & Electricals has established itself as a prominent and trusted name in the water handling solutions industry. With an unwavering commitment to excellence and customer satisfaction, we have become a leading supplier of water supply pumps for a diverse range of applications across various industries. Our wide product range includes Dewatering Pump, Submersible Dewatering Pumps, Dewatering Equipments, Dewatering Pump, Diesel Dewatering Pump, Rainwater Dewatering System, Sludge Dewatering Pump, Water Pumps, Booster Pump, and Borewell Pumps.
+            Founded in 1999, Mansi Engineering & Electricals has established itself as a prominent and trusted name in the water handling solutions industry. With an unwavering commitment to excellence and customer satisfaction, we have become a leading supplier of water supply pumps for a diverse range of applications across various industries. Our wide product range includes Dewatering Pump, Submersible Dewatering Pumps, Dewatering Equipments, Dewatering Pump, Diesel Dewatering Pump, Rainwater Dewatering System, Sludge Dewatering Pump, Water Pumps, Booster Pump, and Borewell Pumps.
           </p>
           <p className="about-text">
             At Mansi Engineering & Electricals, our unwavering commitment to excellence has led us to remarkable growth under the able guidance of our esteemed Owner, Dipak Shinde. With years of experience in the water handling solutions domain, his visionary leadership has been instrumental in shaping our success.
@@ -269,7 +267,7 @@ const Home = () => {
               <div className="col-md-6 col-lg-3">
                 <div className="service-item wow fadeInUp" data-wow-delay=".25s">
                   <div className="service-img">
-                    <img src={pump12} alt="" />
+                    <img src={waterpumpservice} alt="" />
                     <div className="service-icon">
                       <i className="fa-solid fa-screwdriver-wrench" />
                     </div>
@@ -293,7 +291,7 @@ const Home = () => {
               <div className="col-md-6 col-lg-3">
                 <div className="service-item wow fadeInDown" data-wow-delay=".25s">
                   <div className="service-img">
-                    <img src={pump12} alt="" />
+                    <img src={pumpservice} alt="" />
                     <div className="service-icon">
                       <i className="fa-solid fa-wrench" />
                     </div>
@@ -317,7 +315,7 @@ const Home = () => {
               <div className="col-md-6 col-lg-3">
                 <div className="service-item wow fadeInUp" data-wow-delay=".25s">
                   <div className="service-img">
-                    <img src={pump12} alt="" />
+                    <img src={subersibleservice} alt="" />
                     <div className="service-icon">
                       <i className="fa-solid fa-screwdriver-wrench" />
                     </div>
@@ -341,7 +339,7 @@ const Home = () => {
               <div className="col-md-6 col-lg-3">
                 <div className="service-item wow fadeInDown" data-wow-delay=".25s">
                   <div className="service-img">
-                    <img src={pump12} alt="" />
+                    <img src={BorewellPumpservice} alt="" />
                     <div className="service-icon">
                       <i className="fa-solid fa-screwdriver" />
                     </div>
@@ -389,7 +387,7 @@ const Home = () => {
               <div className="col-md-6 col-lg-3">
                 <div className="team-item wow fadeInUp" data-wow-delay=".25s">
                   <div className="team-img">
-                    <img src={submersible} style={{ width: '276px', height: '276px' }} alt="thumb" />
+                    <img src={submersible} style={{ height: '300px' }} alt="thumb" />
                   </div>
 
                   <div className="team-content">
@@ -408,7 +406,7 @@ const Home = () => {
               <div className="col-md-6 col-lg-3">
                 <div className="team-item wow fadeInUp" data-wow-delay=".50s">
                   <div className="team-img">
-                    <img src={pump10} alt="thumb" />
+                    <img src={waterpump} style={{ height: '300px' }} alt="thumb" />
                   </div>
 
                   <div className="team-content">
@@ -446,7 +444,7 @@ const Home = () => {
               <div className="col-md-6 col-lg-3">
                 <div className="team-item wow fadeInUp" data-wow-delay="1s">
                   <div className="team-img ">
-                    <img className="bg-secondary" src={borewellpump} alt="thumb" />
+                    <img className="bg-secondary" src={borewellpump} style={{ height: '300px' }} alt="thumb" />
                   </div>
 
                   <div className="team-content">

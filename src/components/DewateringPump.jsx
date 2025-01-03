@@ -2,9 +2,10 @@ import React from 'react'
 import Header from './Header'
 import Footer from './Footer'
 import { Link } from 'react-router-dom'
-import service from '../assets/img/service/single.jpg'
+
 import pump8 from '../assets/img/pump8.webp'
 import breadcrumb from '../assets/img/breadcrumb/01.jpg'
+import submersible from '../assets/img/submersible-pump.jpg'
 
 const DewateringPump = () => {
   return (
@@ -65,7 +66,7 @@ const DewateringPump = () => {
                 <div className="col-xl-8 col-lg-8">
                   <div className="service-details">
                     <div className="service-details-img mb-30">
-                      <img src={pump8} alt="thumb" />
+                      <img src={submersible} alt="thumb" />
                     </div>
                     <div className="service-details">
                       <h3 className="mb-20">Dewatering Pumps </h3>
