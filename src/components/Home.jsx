@@ -4,7 +4,7 @@ import React, { useEffect, useRef } from 'react';
 import Header from './Header'
 
 
-import choose from '../assets/img/choose/01.jpg'
+import choose from '../assets/img/why-choose-us.jpg'
 
 import pump1 from '../assets/img/pump1.jpg'
 import pump2 from '../assets/img/pump2.jpg'
@@ -603,13 +603,8 @@ const Home = () => {
     <div className="row align-items-center">
       <div className="col-lg-6">
         <div className="choose-img" data-aos="fade-left" data-aos-delay="250" data-aos-duration="3000">
-          <img src={choose} alt="" />
-          <a
-            className="play-btn popup-youtube"
-            href="https://www.youtube.com/watch?v=ckHzmP1evNU"
-          >
-            <i className="fas fa-play" />
-          </a>
+          <img src={choose} style={{ height: '650px' }} alt="" />
+         
         </div>
       </div>
       <div className="col-lg-6">
