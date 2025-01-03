@@ -78,10 +78,10 @@ const BorewellPump = () => {
                   <div className="mb-3">
                     <h3 className="mb-3">Types of Borewell Pumps:</h3>
                     <p>
-                    I. Submersible Borewell Pumps: These pumps are designed to be submerged entirely in water. They are more efficient compared to surface pumps as they don't require priming and can push water vertically upwards from great depths.
+                   <strong>I. Submersible Borewell Pumps:</strong>  These pumps are designed to be submerged entirely in water. They are more efficient compared to surface pumps as they don't require priming and can push water vertically upwards from great depths.
                     </p>
                     <p>
-                    II. Openwell (Open-well) Borewell Pumps: Openwell pumps are installed at the opening of the well, and they do not need to be submerged. They are suitable for shallow borewells or where the water table is relatively high.
+                   <strong>II. Openwell (Open-well) Borewell Pumps:</strong>  Openwell pumps are installed at the opening of the well, and they do not need to be submerged. They are suitable for shallow borewells or where the water table is relatively high.
                     </p>
                   </div>
                  
@@ -91,13 +91,13 @@ const BorewellPump = () => {
                   <div className="mb-3">
                     <h3 className="mb-3">Different Suppliers and Services of a Borewell Pump include:</h3>
                    <p>
-                   1 Boring Pumps:Mansi Engineering & Electricals has gained a strong reputation in Pune for its outstanding services as a supplier of Boring Pumps. With years of experience and expertise in the industry, they have become a trusted name for providing high-quality pumps that meet the diverse needs of their customers. Their dedication to excellence and commitment to customer satisfaction has made them stand out among competitors in the market. Whether it's for residential, commercial, or industrial purposes, Mansi Engineering & Electricals ensures reliable and efficient pumps that are built to last.
+                  <strong>1. Boring Pumps:</strong> Mansi Engineering & Electricals has gained a strong reputation in Pune for its outstanding services as a supplier of Boring Pumps. With years of experience and expertise in the industry, they have become a trusted name for providing high-quality pumps that meet the diverse needs of their customers. Their dedication to excellence and commitment to customer satisfaction has made them stand out among competitors in the market. Whether it's for residential, commercial, or industrial purposes, Mansi Engineering & Electricals ensures reliable and efficient pumps that are built to last.
                    </p>
                    <p>
-                   2 Borehole Pumps:Mansi Engineering & Electricals has established itself as a reputable and reliable supplier of borehole services in Pune. With their exceptional expertise and commitment to quality, they have gained recognition for their outstanding services in the field. Whether it is drilling boreholes for water supply or conducting soil investigations, Mansi Engineering & Electricals is known for delivering top-notch solutions tailored to meet the needs of its clients. Their dedication to customer satisfaction and emphasis on using advanced equipment sets them apart in the industry.
+                  <strong>2. Borehole Pumps:</strong> Mansi Engineering & Electricals has established itself as a reputable and reliable supplier of borehole services in Pune. With their exceptional expertise and commitment to quality, they have gained recognition for their outstanding services in the field. Whether it is drilling boreholes for water supply or conducting soil investigations, Mansi Engineering & Electricals is known for delivering top-notch solutions tailored to meet the needs of its clients. Their dedication to customer satisfaction and emphasis on using advanced equipment sets them apart in the industry.
                    </p>
                    <p>
-                   3 Borewell Pumpset:Mansi Engineering & Electricals, based in Pune, has garnered a well-deserved reputation for its exceptional services as a supplier of Borewell Pumpsets. With their expertise and commitment to quality, Mansi Engineering & Electricals has become a trusted name in the industry.
+                  <strong>3. Borewell Pumpset:</strong> Mansi Engineering & Electricals, based in Pune, has garnered a well-deserved reputation for its exceptional services as a supplier of Borewell Pumpsets. With their expertise and commitment to quality, Mansi Engineering & Electricals has become a trusted name in the industry.
                    </p>
                    <p>
                    As a supplier of Borewell Pumpsets, Mansi Engineering & Electricals understands the unique needs and requirements of their customers. They offer a wide range of pumpsets that are designed to cater to different applications and specifications.
@@ -113,19 +113,19 @@ const BorewellPump = () => {
                   <div className="mb-3">
                     <h3 className="mb-3">Factors to Take into Account When Selecting a Borewell Pump:</h3>
                     <p>
-                    I. Depth of the Borewell: The depth of the borewell is a crucial factor in selecting the right pump. Deeper borewells require more powerful pumps to lift water to the surface.
+                   <strong>I. Depth of the Borewell:</strong>  The depth of the borewell is a crucial factor in selecting the right pump. Deeper borewells require more powerful pumps to lift water to the surface.
                     </p>
                     <p>
-                    II. Water Requirement: Consider the amount of water needed for your specific application, such as irrigation, industrial use, or domestic water supply.
+                    <strong>II. Water Requirement:</strong>  Consider the amount of water needed for your specific application, such as irrigation, industrial use, or domestic water supply.
                     </p>
                     <p>
-                    III. Pump Capacity: The capacity of the pump (measured in liters per minute or gallons per hour) should match or exceed the required water flow rate.
+                    <strong> III. Pump Capacity:</strong>  The capacity of the pump (measured in liters per minute or gallons per hour) should match or exceed the required water flow rate.
                     </p>
                     <p>
-                    IV. Power Supply: Ensure that the pump's power requirements match the available electrical supply, especially when dealing with three-phase pumps.
+                    <strong>IV. Power Supply:</strong>  Ensure that the pump's power requirements match the available electrical supply, especially when dealing with three-phase pumps.
                     </p>
                     <p>
-                    V. Pump Quality and Brand: Choose a reliable and reputable brand known for manufacturing high-quality borewell pumps that are durable and efficient.
+                    <strong> V. Pump Quality and Brand:</strong>  Choose a reliable and reputable brand known for manufacturing high-quality borewell pumps that are durable and efficient.
                     </p>
                   </div>
                  
@@ -135,19 +135,19 @@ const BorewellPump = () => {
                   <div className="mb-3">
                     <h3 className="mb-3">Components of a Borewell Pump:</h3>
                     <p>
-                    I. Pump Motor: The motor is the heart of the borewell pump. It is a sealed unit designed to operate underwater and is responsible for driving the impellers that generate the pumping action.
+                    <strong> I. Pump Motor:</strong>  The motor is the heart of the borewell pump. It is a sealed unit designed to operate underwater and is responsible for driving the impellers that generate the pumping action.
                     </p>
                     <p>
-                    II. Impellers: The impellers are rotating discs with curved blades that create a flow of water within the pump. As the impellers spin, they pressurize the water, causing it to move towards the pump outlet.
+                    <strong>II. Impellers:</strong>   The impellers are rotating discs with curved blades that create a flow of water within the pump. As the impellers spin, they pressurize the water, causing it to move towards the pump outlet.
                     </p>
                     <p>
-                    III. Pump Casing: The pump casing is a protective covering that houses the motor and impellers. It prevents water from entering the motor and also helps direct the water flow towards the outlet.
+                    <strong>III. Pump Casing:</strong>  The pump casing is a protective covering that houses the motor and impellers. It prevents water from entering the motor and also helps direct the water flow towards the outlet.
                     </p>
                     <p>
-                    IV. Check Valve: A check valve is installed in the pump to prevent water from flowing back into the borewell when the pump is not in operation. This helps maintain prime (water in the pump) and prevents the need for frequent priming.
+                    <strong>IV. Check Valve:</strong>  A check valve is installed in the pump to prevent water from flowing back into the borewell when the pump is not in operation. This helps maintain prime (water in the pump) and prevents the need for frequent priming.
                     </p>
                     <p>
-                    V. Control Box (for three-phase pumps): In the case of three-phase borewell pumps, a control box is used to manage the electrical supply to the motor and protect it from overload and other electrical issues.
+                    <strong> V. Control Box (for three-phase pumps):</strong> In the case of three-phase borewell pumps, a control box is used to manage the electrical supply to the motor and protect it from overload and other electrical issues.
                     </p>
                   </div>
                  

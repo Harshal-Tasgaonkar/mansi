@@ -7,6 +7,12 @@ const Footer = () => {
    
   <>
   
+  <div id="whatsapp-chat-container">
+    <a href="https://wa.me/918482858686?text=Hi,%20I%20would%20like%20to%20know%20more%20about%20your%20services" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Chat" id="whatsapp-icon" />
+    </a>
+</div>
+
   
   {/* footer area */}
   <footer className="footer-area">
@@ -127,17 +133,22 @@ const Footer = () => {
     </div>
     <div className="copyright">
       <div className="container">
-        <div className="row">
-          <div className="col-md-6 align-self-center">
+        <div className="row d-flex justify-content-between ">
+          <div className="col-md-3 align-self-center">
             <p className="copyright-text">
               © Copyright <span id="date" />{" "}
-              <a href="index.html#"> Electrow </a> All Rights Reserved.
+              <a href="index.html#"> </a> All Rights Reserved.
             </p>
           </div>
-          <div className="col-md-6 align-self-center">
+          <div className="col-md-3 align-self-center">
+            <p className="copyright-text">
+              <Link to="https://www.shekruweb.com" target="_blank"><i className="fa-solid fa-bolt ms-5"></i> Powered by <br/> Shekru Labs India Pvt. Ltd.</Link>
+            </p>
+          </div>
+          <div className="col-md-3 align-self-center">
             <ul className="footer-social">
               <li>
-                <Link to="https://www.facebook.com/mansiengg.in?mibextid=ZbWKwL">
+                <Link to="https://www.facebook.com/mansiengg.in?mibextid=ZbWKwL" target="_blank">
                   <i className="fab fa-facebook-f" />
                 </Link>
               </li>
@@ -149,7 +160,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to="https://www.linkedin.com/company/mansi-engineering-electricals/">
+                <Link to="https://www.linkedin.com/company/mansi-engineering-electricals/" target="_blank">
                   <i className="fab fa-linkedin-in" />
                 </Link>
               </li>

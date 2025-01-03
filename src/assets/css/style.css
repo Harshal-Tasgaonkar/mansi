@@ -5017,3 +5017,24 @@ label {
     right: 10px;
   }
 }
+
+
+#whatsapp-chat-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+#whatsapp-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+#whatsapp-icon:hover {
+  transform: scale(1.1);
+}

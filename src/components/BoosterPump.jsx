@@ -82,16 +82,16 @@ const BoosterPump = () => {
                   <div className="mb-3">
                     <h3 className="mb-3">Types of Booster Pumps:</h3>
                     <p>
-                    I. Single-Stage Booster Pump: These pumps have only one impeller and are suitable for relatively lower pressure requirements.
+                   <strong> I. Single-Stage Booster Pump:</strong> These pumps have only one impeller and are suitable for relatively lower pressure requirements.
                     </p>
                     <p>
-                    II. Multi-Stage Booster Pump: These pumps consist of multiple impellers arranged in series. They are ideal for applications that require higher pressure boosts.
+                   <strong>II. Multi-Stage Booster Pump:</strong>  These pumps consist of multiple impellers arranged in series. They are ideal for applications that require higher pressure boosts.
                     </p>
                     <p>
-                    III. Vertical Booster Pump: These pumps are designed with a vertical orientation and are often used in spaces with limited horizontal space.
+                    <strong>III. Vertical Booster Pump:</strong> These pumps are designed with a vertical orientation and are often used in spaces with limited horizontal space.
                     </p>
                     <p>
-                    IV. Horizontal Booster Pump: These pumps have a horizontal configuration and are commonly used in various industrial and commercial settings.
+                   <strong>IV. Horizontal Booster Pump:</strong>  These pumps have a horizontal configuration and are commonly used in various industrial and commercial settings.
                     </p>
                   </div>
                  
@@ -102,19 +102,19 @@ const BoosterPump = () => {
                   <div className="mb-3">
                     <h3 className="mb-3">Benefits of Booster Pumps:</h3>
                     <p>
-                    I. Improved Water Pressure: Booster pumps ensure consistent and reliable water pressure, eliminating issues of low flow and weak pressure.
+                   <strong>I. Improved Water Pressure:</strong>  Booster pumps ensure consistent and reliable water pressure, eliminating issues of low flow and weak pressure.
                     </p>
                     <p>
-                    II. Energy Efficiency: Utilizing booster pumps can lead to energy savings by optimizing the distribution of water or fluids at the required pressure, reducing wastage.
+                   <strong>II. Energy Efficiency:</strong>  Utilizing booster pumps can lead to energy savings by optimizing the distribution of water or fluids at the required pressure, reducing wastage.
                     </p>
                     <p>
-                    III. Enhanced Performance: Industries relying on booster pumps can operate their processes more efficiently and effectively, leading to increased productivity.
+                   <strong>III. Enhanced Performance:</strong>  Industries relying on booster pumps can operate their processes more efficiently and effectively, leading to increased productivity.
                     </p>
                     <p>
-                    IV. Versatility: Booster pumps come in various sizes and configurations, making them adaptable to a wide range of applications.
+                   <strong>IV. Versatility:</strong>  Booster pumps come in various sizes and configurations, making them adaptable to a wide range of applications.
                     </p>
                     <p>
-                    V. Reduced Maintenance: By maintaining stable pressure levels, booster pumps can decrease the wear and tear on equipment and pipes, leading to reduced maintenance costs.
+                   <strong>V. Reduced Maintenance:</strong>  By maintaining stable pressure levels, booster pumps can decrease the wear and tear on equipment and pipes, leading to reduced maintenance costs.
                     </p>
                   </div>
                  
@@ -125,25 +125,25 @@ const BoosterPump = () => {
                   <div className="mb-3">
                     <h3 className="mb-3">Applications of Booster Pump</h3>
                     <p>
-                    I. Water Supply Systems: Booster pump manufacturers are widely used in municipal water supply systems to maintain adequate water pressure throughout the distribution network, especially in tall buildings or areas with low water pressure.
+                  <strong> I. Water Supply Systems:</strong>  Booster pump manufacturers are widely used in municipal water supply systems to maintain adequate water pressure throughout the distribution network, especially in tall buildings or areas with low water pressure.
                     </p>
                     <p>
-                    II. Irrigation Systems: In agricultural settings, booster pumps are employed to enhance water pressure for efficient irrigation, ensuring that crops receive the required amount of water.
+                   <strong>II. Irrigation Systems:</strong>  In agricultural settings, booster pumps are employed to enhance water pressure for efficient irrigation, ensuring that crops receive the required amount of water.
                     </p>
                     <p>
-                    III. Fire Protection Systems: Booster pumps are integral components of fire protection systems, as they ensure an adequate supply of water at high pressure for firefighting operations.
+                   <strong>III. Fire Protection Systems:</strong>  Booster pumps are integral components of fire protection systems, as they ensure an adequate supply of water at high pressure for firefighting operations.
                     </p>
                     <p>
-                    IV. Industrial Processes: Many industrial processes require fluids to be transported at specific pressures. Booster pumps are utilized to meet these pressure requirements in various manufacturing and processing industries.
+                   <strong>IV. Industrial Processes:</strong>  Many industrial processes require fluids to be transported at specific pressures. Booster pumps are utilized to meet these pressure requirements in various manufacturing and processing industries.
                     </p>
                     <p>
-                    V. Boiler Feed Water Systems: In power plants and other industrial facilities with boilers, booster pumps are used to maintain the necessary water pressure for efficient boiler operation.
+                   <strong>V. Boiler Feed Water Systems:</strong>  In power plants and other industrial facilities with boilers, booster pumps are used to maintain the necessary water pressure for efficient boiler operation.
                     </p>
                     <p>
-                    VI. Reverse Osmosis Systems: Booster pumps are used in reverse osmosis systems to increase the pressure on the feedwater, enabling the filtration process and producing purified water.
+                  <strong>VI. Reverse Osmosis Systems:</strong>  Booster pumps are used in reverse osmosis systems to increase the pressure on the feedwater, enabling the filtration process and producing purified water.
                     </p>
                     <p>
-                    VII. Hydraulic Systems: In some hydraulic systems, booster pumps are employed to ensure consistent pressure levels for smooth and reliable operation.
+                  <strong>VII. Hydraulic Systems:</strong>  In some hydraulic systems, booster pumps are employed to ensure consistent pressure levels for smooth and reliable operation.
                     </p>
                   </div>
                  

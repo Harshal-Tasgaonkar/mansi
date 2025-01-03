@@ -86,13 +86,13 @@ const DewateringPump = () => {
                           <h3 className="mb-3">Types of Dewatering Pumps</h3>
                           <h6>There are several types of dewatering pumps available, each tailored to specific situations:</h6>
                           <p>
-                            a. Submersible Dewatering Pumps: These pumps are designed to be submerged in water during operation. They are ideal for confined spaces and shallow water bodies like flooded basements or construction site trenches.
+                        <strong> a. Submersible Dewatering Pumps:</strong> These pumps are designed to be submerged in water during operation. They are ideal for confined spaces and shallow water bodies like flooded basements or construction site trenches.
                           </p>
                           <p>
-                            b. Centrifugal Dewatering Pumps: These pumps use centrifugal force to move water through the impeller and expel it from the outlet. They are commonly used for larger projects, such as mining, municipal wastewater management, and large-scale construction sites.
+                          <strong>  b. Centrifugal Dewatering Pumps:</strong> These pumps use centrifugal force to move water through the impeller and expel it from the outlet. They are commonly used for larger projects, such as mining, municipal wastewater management, and large-scale construction sites.
                           </p>
                           <p>
-                            c. Well Dewatering Pumps: Utilizing a well system, these pumps are effective in lowering the water table in excavation sites, allowing for dry working conditions.
+                          <strong> c. Well Dewatering Pumps:</strong> Utilizing a well system, these pumps are effective in lowering the water table in excavation sites, allowing for dry working conditions.
                           </p>
                         </div>
 
@@ -103,20 +103,20 @@ const DewateringPump = () => {
                           <h3 className="mb-3">Key Features and Benefits:</h3>
                           
                           <p>
-                          a. Efficiency Dewatering pumps are designed for maximum efficiency, ensuring rapid water removal, which is crucial for minimizing downtime and maintaining productivity.
+                          <strong> a. Efficiency:</strong>  Dewatering pumps are designed for maximum efficiency, ensuring rapid water removal, which is crucial for minimizing downtime and maintaining productivity.
                           </p>
                           <p>
-                          b. Versatility: With various pump types and sizes available, these pumps can handle a broad range of applications, from small-scale residential flooding to large-scale industrial dewatering projects.
+                          <strong> b. Versatility:</strong>  With various pump types and sizes available, these pumps can handle a broad range of applications, from small-scale residential flooding to large-scale industrial dewatering projects.
                           </p>
                           <p>
-                          c. Durability Constructed from sturdy materials, dewatering pumps are built to withstand harsh conditions, making them reliable even in demanding environments.
+                          <strong> c. Durability:</strong>  Constructed from sturdy materials, dewatering pumps are built to withstand harsh conditions, making them reliable even in demanding environments.
                           </p>
 
                           <p>
-                          d. Portability Many dewatering pumps are designed with portability in mind, equipped with handles or wheels for easy transportation between job sites.
+                          <strong> d. Portability:</strong> Many dewatering pumps are designed with portability in mind, equipped with handles or wheels for easy transportation between job sites.
                           </p>
                           <p>
-                          e. Cost-Effectiveness By preventing water-related damages, dewatering pumps can save money on repairs and reduce project delays, making them a cost-effective investment.
+                          <strong> e. Cost-Effectiveness:</strong> By preventing water-related damages, dewatering pumps can save money on repairs and reduce project delays, making them a cost-effective investment.
                           </p>
 
                         </div>
@@ -128,19 +128,19 @@ const DewateringPump = () => {
                           <h3 className="mb-3">Applications:</h3>
                           
                          <p>
-                         a. Construction Sites Keeping construction sites dry is crucial for worker safety and efficient construction progress. Dewatering pumps are often used to handle groundwater and rainwater during construction projects.
+                         <strong> a. Construction Sites:</strong>  Keeping construction sites dry is crucial for worker safety and efficient construction progress. Dewatering pumps are often used to handle groundwater and rainwater during construction projects.
                          </p>
                          <p>
-                         b. Mining Operations: Mines are prone to flooding, which can halt operations and cause safety hazards. Dewatering pumps are employed to keep the mines dry and operational.
+                         <strong> b. Mining Operations:</strong>   Mines are prone to flooding, which can halt operations and cause safety hazards. Dewatering pumps are employed to keep the mines dry and operational.
                          </p>
                          <p>
-                         c. Municipal Wastewater Management Dewatering pumps help manage municipal wastewater, preventing flooding and ensuring proper wastewater treatment.
+                         <strong>c. Municipal Wastewater Management:</strong>   Dewatering pumps help manage municipal wastewater, preventing flooding and ensuring proper wastewater treatment.
                          </p>
                          <p>
-                         d. Flooded Areas During natural disasters or heavy rainfall, dewatering pumps are used to mitigate flooding and reduce the damage caused by excess water.
+                         <strong> d. Flooded Areas:</strong>   During natural disasters or heavy rainfall, dewatering pumps are used to mitigate flooding and reduce the damage caused by excess water.
                          </p>
                          <p>
-                         e. Agricultural Applications Dewatering pumps are useful for draining waterlogged fields and preventing crop damage.
+                         <strong>e. Agricultural Applications:</strong>   Dewatering pumps are useful for draining waterlogged fields and preventing crop damage.
                          </p>
 
                         </div>
