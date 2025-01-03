@@ -9,7 +9,8 @@ const Footer = () => {
   
   <div id="whatsapp-chat-container">
     <a href="https://wa.me/918482858686?text=Hi,%20I%20would%20like%20to%20know%20more%20about%20your%20services" target="_blank">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Chat" id="whatsapp-icon" />
+        {/* <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Chat" id="whatsapp-icon" /> */}
+        <i id="whatsapp-icon" className="fa-brands fa-whatsapp fa-shake"></i>
     </a>
 </div>
 
