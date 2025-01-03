@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mansi/static/css/main.b90f3254.css",
-    "main.js": "/mansi/static/js/main.8f8b518d.js",
+    "main.css": "/mansi/static/css/main.5e4fe1ce.css",
+    "main.js": "/mansi/static/js/main.accdf582.js",
     "static/js/488.fe64eae2.chunk.js": "/mansi/static/js/488.fe64eae2.chunk.js",
     "static/media/01.jpg": "/mansi/static/media/01.7d7a27769ecd00652b56.jpg",
     "static/media/pump.png": "/mansi/static/media/pump.ea234cfd6a6e8416376f.png",
@@ -27,12 +27,12 @@
     "static/media/pump12.jpg": "/mansi/static/media/pump12.70e8199050610d5e712b.jpg",
     "static/media/pump4.jpg": "/mansi/static/media/pump4.578df47a55e9a29cb47f.jpg",
     "index.html": "/mansi/index.html",
-    "main.b90f3254.css.map": "/mansi/static/css/main.b90f3254.css.map",
-    "main.8f8b518d.js.map": "/mansi/static/js/main.8f8b518d.js.map",
+    "main.5e4fe1ce.css.map": "/mansi/static/css/main.5e4fe1ce.css.map",
+    "main.accdf582.js.map": "/mansi/static/js/main.accdf582.js.map",
     "488.fe64eae2.chunk.js.map": "/mansi/static/js/488.fe64eae2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b90f3254.css",
-    "static/js/main.8f8b518d.js"
+    "static/css/main.5e4fe1ce.css",
+    "static/js/main.accdf582.js"
   ]
 }
