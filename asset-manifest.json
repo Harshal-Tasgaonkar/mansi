@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mansi/static/css/main.a4a17147.css",
-    "main.js": "/mansi/static/js/main.f4552aa5.js",
+    "main.js": "/mansi/static/js/main.c9deb6e9.js",
     "static/js/488.fe64eae2.chunk.js": "/mansi/static/js/488.fe64eae2.chunk.js",
     "static/media/01.jpg": "/mansi/static/media/01.e2c3a0a9325b109788d9.jpg",
     "static/media/pump.png": "/mansi/static/media/pump.ea234cfd6a6e8416376f.png",
@@ -32,11 +32,11 @@
     "static/media/pump-service.jpg": "/mansi/static/media/pump-service.f202bc24a9763a9cea1e.jpg",
     "index.html": "/mansi/index.html",
     "main.a4a17147.css.map": "/mansi/static/css/main.a4a17147.css.map",
-    "main.f4552aa5.js.map": "/mansi/static/js/main.f4552aa5.js.map",
+    "main.c9deb6e9.js.map": "/mansi/static/js/main.c9deb6e9.js.map",
     "488.fe64eae2.chunk.js.map": "/mansi/static/js/488.fe64eae2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a4a17147.css",
-    "static/js/main.f4552aa5.js"
+    "static/js/main.c9deb6e9.js"
   ]
 }
