@@ -104,13 +104,13 @@ const Header = () => {
                 <Link
                   className="nav-link  "
                   to="/"
-                  
+                  onClick={() => window.scrollTo(0, 0)}
                 >
                   Home
                 </Link>
                 </li>
                 <li className="nav-item">
-                <Link className="nav-link" to="/about">
+                <Link className="nav-link" to="/about" onClick={() => window.scrollTo(0, 0)}>
                   About
                 </Link>
               </li>
@@ -125,22 +125,22 @@ const Header = () => {
             </a>
             <ul className="dropdown-menu fade-down">
             <li>
-                    <Link className="dropdown-item" to="/rental-services">
+                    <Link className="dropdown-item" to="/rental-services" onClick={() => window.scrollTo(0, 0)}>
                     Rental Services
                     </Link>
                   </li>
                   <li>
-                    <Link className="dropdown-item" to="/pump-repairing-services">
+                    <Link className="dropdown-item" to="/pump-repairing-services" onClick={() => window.scrollTo(0, 0)}>
                     Pump Repairing Services
                     </Link>
                   </li>
                   <li>
-                    <Link className="dropdown-item" to="/dewatering-pump-hiring-services">
+                    <Link className="dropdown-item" to="/dewatering-pump-hiring-services" onClick={() => window.scrollTo(0, 0)}>
                     Dewatering Pump Hiring
                     </Link>
                   </li>
                   <li>
-                    <Link className="dropdown-item" to="/repairing-services">
+                    <Link className="dropdown-item" to="/repairing-services" onClick={() => window.scrollTo(0, 0)}>
                     Repairing Services
                     </Link>
                   </li>
@@ -158,22 +158,22 @@ const Header = () => {
             <ul className="dropdown-menu fade-down">
               
             <li>
-                    <Link className="dropdown-item" to="/dewatering-pump">
+                    <Link className="dropdown-item" to="/dewatering-pump" onClick={() => window.scrollTo(0, 0)}>
                     Dewatering Pump
                     </Link>
                   </li>
                   <li>
-                    <Link className="dropdown-item" to="/water-pump">
+                    <Link className="dropdown-item" to="/water-pump" onClick={() => window.scrollTo(0, 0)}>
                     Water Pump
                     </Link>
                   </li>
                   <li>
-                    <Link className="dropdown-item" to="/booster-pump">
+                    <Link className="dropdown-item" to="/booster-pump" onClick={() => window.scrollTo(0, 0)}>
                     Booster Pump
                     </Link>
                   </li>
                   <li>
-                    <Link className="dropdown-item" to="/borewell-pump">
+                    <Link className="dropdown-item" to="/borewell-pump" onClick={() => window.scrollTo(0, 0)}>
                     Borewell Pump
                     </Link>
                   </li>
@@ -183,7 +183,7 @@ const Header = () => {
           </li>
           
           <li className="nav-item">
-                <Link className="nav-link" to="/contact">
+                <Link className="nav-link" to="/contact" onClick={() => window.scrollTo(0, 0)}>
                   Contact
                 </Link>
               </li>

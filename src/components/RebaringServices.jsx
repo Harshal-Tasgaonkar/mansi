@@ -21,12 +21,12 @@ const RebaringServices = () => {
     style={{ backgroundImage: `url(${breadcrumb})` }}
   >
     <div className="container">
-      <h2 className="breadcrumb-title">Reparing Service</h2>
+      <h2 className="breadcrumb-title">Repairing Service</h2>
       <ul className="breadcrumb-menu">
         <li>
           <Link href="/">Home</Link>
         </li>
-        <li className="active"><i className="fa-solid fa-angles-right me-1"></i>Reparing Service</li>
+        <li className="active"><i className="fa-solid fa-angles-right me-1"></i>Repairing Service</li>
       </ul>
     </div>
   </div>
@@ -70,7 +70,7 @@ const RebaringServices = () => {
                 <img src={BorewellPumpservice} alt="thumb" />
               </div>
               <div className="service-details">
-                <h3 className="mb-20">Reparing Service</h3>
+                <h3 className="mb-20">Repairing Service</h3>
                 <p className="mb-20">
                 Mansi Engineering & Electricals in Pune India, offers repair and expansion services for a variety of structures as part of its commitment to serving the demands of civil and construction sites. Our specialized staff fortifies the beams of these constructions using cutting-edge equipment and chemical procedures to make sure they can bear the tension of concrete. Our skilled personnel continuously monitor the rebaring services process to provide the best outcomes with a focus on upholding high-quality standards.
                 </p>
