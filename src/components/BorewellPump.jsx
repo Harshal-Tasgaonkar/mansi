@@ -38,7 +38,7 @@ const BorewellPump = () => {
           <div className="col-xl-4 col-lg-4">
             <div className="service-sidebar">
               <div className="widget category">
-                                                  <h4 className="widget-title">All Services</h4>
+                                                  <h4 className="widget-title">Our Products</h4>
                                                   <div className="category-list">
                                                     <Link to="/dewatering-pump" onClick={() => window.scrollTo(0, 0)}>
                                                     <i className="fas fa-arrow-right-long"></i>
