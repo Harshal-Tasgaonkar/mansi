@@ -40,19 +40,19 @@ const RentalServices = () => {
               <div className="widget category">
                              <h4 className="widget-title">All Services</h4>
                              <div className="category-list">
-                               <Link to="/rental-services">
+                               <Link to="/rental-services" onClick={() => window.scrollTo(0, 0)}>
                                <i className="fas fa-arrow-right-long"></i>
                                  Rental Services
                                </Link>
-                               <Link to="/pump-repairing-services">
+                               <Link to="/pump-repairing-services" onClick={() => window.scrollTo(0, 0)}>
                                <i className="fas fa-arrow-right-long"></i>
                                  Pump Repairing Services
                                </Link>
-                               <Link to="/dewatering-pump-hiring-services">
+                               <Link to="/dewatering-pump-hiring-services" onClick={() => window.scrollTo(0, 0)}>
                                <i className="fas fa-arrow-right-long"></i>
                                  Dewatering Pump Hiring Services
                                </Link>
-                               <Link to="/repairing-services">
+                               <Link to="/repairing-services" onClick={() => window.scrollTo(0, 0)}>
                                <i className="fas fa-arrow-right-long"></i>
                                  Repairing Service
                                </Link>

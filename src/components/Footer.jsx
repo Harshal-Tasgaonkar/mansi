@@ -161,41 +161,38 @@ const Footer = () => {
     </div>
     <div className="copyright">
       <div className="container">
-        <div className="row d-flex justify-content-between ">
-          <div className="col-md-3 align-self-center">
-            <p className="copyright-text">
-              © Mansi Engineering & Electricals.<br/><span id="date" />{" "}
-              All Rights Reserved.
-            </p>
-          </div>
-          <div className="col-md-3 align-self-center">
-            <p className="copyright-text">
-              <Link to="https://www.shekruweb.com" target="_blank"><i className="fa-solid fa-bolt ms-5"></i> Powered by <br/> Shekru Labs India Pvt. Ltd.</Link>
-            </p>
-          </div>
-          <div className="col-md-3 align-self-center">
-            <ul className="footer-social">
-              <li>
-                <Link to="https://www.facebook.com/mansiengg.in?mibextid=ZbWKwL" target="_blank">
-                  <i className="fab fa-facebook-f" />
-                </Link>
-              </li>
-              <li>
-                <Link to="https://wa.me/918482858686"
-  target="_blank"
-  rel="noopener noreferrer" >
-                  <i className="fa-brands fa-whatsapp" />
-                </Link>
-              </li>
-              <li>
-                <Link to="https://www.linkedin.com/company/mansi-engineering-electricals/" target="_blank">
-                  <i className="fab fa-linkedin-in" />
-                </Link>
-              </li>
-             
-            </ul>
-          </div>
-        </div>
+      <div className="row d-flex justify-content-between text-center">
+  <div className="col-12 col-md-3 align-self-center">
+    <p className="copyright-text">
+      © Mansi Engineering & Electricals.<br/><span id="date" />{" "}
+      All Rights Reserved.
+    </p>
+  </div>
+  <div className="col-12 col-md-3 align-self-center">
+    <p className="copyright-text">
+      <Link to="https://www.shekruweb.com" target="_blank"><i className="fa-solid fa-bolt "></i> Powered by <br/> Shekru Labs India Pvt. Ltd.</Link>
+    </p>
+  </div>
+  <div className="col-12 col-md-3 align-self-center d-flex justify-content-center">
+  <ul className="footer-social ">
+    <li className="d-inline">
+      <Link to="https://www.facebook.com/mansiengg.in?mibextid=ZbWKwL" target="_blank">
+        <i className="fab fa-facebook-f" />
+      </Link>
+    </li>
+    <li className="d-inline mx-2">
+      <Link to="https://wa.me/918482858686" target="_blank" rel="noopener noreferrer">
+        <i className="fa-brands fa-whatsapp" />
+      </Link>
+    </li>
+    <li className="d-inline">
+      <Link to="https://www.linkedin.com/company/mansi-engineering-electricals/" target="_blank">
+        <i className="fab fa-linkedin-in" />
+      </Link>
+    </li>
+  </ul>
+</div>
+</div>
       </div>
     </div>
   </footer>

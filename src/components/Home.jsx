@@ -149,7 +149,7 @@ const Home = () => {
             >
               <div className="container">
                 <div className="hero-content">
-                  <h6 className="hero-sub-title" data-animation="fadeInDown" data-delay=".25s">
+                  <h6 className="hero-sub-title site-title-tagline" data-animation="fadeInDown" data-delay=".25s">
                     <i className="fa-solid fa-lightbulb" />
                     Welcome To Mansi Engineering & Electricals!
                   </h6>

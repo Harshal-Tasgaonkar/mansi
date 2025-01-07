@@ -40,19 +40,19 @@ const WaterPump = () => {
              <div className="widget category">
                                                  <h4 className="widget-title">All Services</h4>
                                                  <div className="category-list">
-                                                   <Link to="/dewatering-pump">
+                                                   <Link to="/dewatering-pump" onClick={() => window.scrollTo(0, 0)}>
                                                    <i className="fas fa-arrow-right-long"></i>
                                                    Dewatering Pumps
                                                    </Link>
-                                                   <Link to="/water-pump">
+                                                   <Link to="/water-pump" onClick={() => window.scrollTo(0, 0)}>
                                                    <i className="fas fa-arrow-right-long"></i>
                                                    Water Pumps
                                                    </Link>
-                                                   <Link to="/booster-pump">
+                                                   <Link to="/booster-pump" onClick={() => window.scrollTo(0, 0)}>
                                                    <i className="fas fa-arrow-right-long"></i>
                                                    Booster Pump
                                                    </Link>
-                                                   <Link to="/borewell-pump">
+                                                   <Link to="/borewell-pump" onClick={() => window.scrollTo(0, 0)}>
                                                    <i className="fas fa-arrow-right-long"></i>
                                                    Borewell Pump
                                                    </Link>
