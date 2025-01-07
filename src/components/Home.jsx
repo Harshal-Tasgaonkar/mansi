@@ -318,7 +318,7 @@ const Home = () => {
                   </div>
                   <div className="service-content">
                     <h3 className="service-title">
-                      <a href="service-single.html">Rental Services</a>
+                      <a >Rental Services</a>
                     </h3>
                     <p className="service-text">
                       Top-quality rental services with well-maintained equipment and exceptional customer support.
@@ -342,7 +342,7 @@ const Home = () => {
                   </div>
                   <div className="service-content">
                     <h3 className="service-title">
-                      <a href="service-single.html">Pump Repairing Services</a>
+                      <a >Pump Repairing Services</a>
                     </h3>
                     <p className="service-text">
                       Mansi Engineering offers expert pump repairing services for residential, commercial, industrial.
@@ -366,7 +366,7 @@ const Home = () => {
                   </div>
                   <div className="service-content">
                     <h3 className="service-title">
-                      <a href="service-single.html">Dewatering Pump Hiring Services</a>
+                      <a >Dewatering Pump Hiring Services</a>
                     </h3>
                     <p className="service-text">
                       Mansi Engineering offers reliable dewatering pump hiring services for various industries.
@@ -390,7 +390,7 @@ const Home = () => {
                   </div>
                   <div className="service-content">
                     <h3 className="service-title">
-                      <a href="service-single.html">Repairing Service</a>
+                      <a >Repairing Service</a>
                     </h3>
                     <p className="service-text">
                       Mansi Engineering provides expert rebaring services to strengthen concrete structures effectively.

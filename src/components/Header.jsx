@@ -192,10 +192,12 @@ const Header = () => {
         <div className="nav-right">
           
           <div className="nav-right-btn mt-2">
-            <a href="contact.html" className="theme-btn">
+            <Link to="https://wa.me/918482858686"
+            target="_blank"
+             rel="noopener noreferrer" className="theme-btn">
               Get A Quote
               <i className="fas fa-arrow-right-long" />
-            </a>
+            </Link>
           </div>
         </div>
       </div>
