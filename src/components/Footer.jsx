@@ -49,9 +49,9 @@ const Footer = () => {
         <div className="row footer-widget-wrapper pt-100 pb-70">
           <div className="col-md-6 col-lg-4">
             <div className="footer-widget-box about-us">
-              <a href="index.html" className="footer-logo">
+              <Link to="/" className="footer-logo bg-light rounded ">
                 <img src={logo} alt="" style={{ width: '200px', height: '80px' }}/>
-              </a>
+              </Link>
               <p className="mb-3">
               Mansi Engineering & Electricals is a trusted leader in water handling solutions, offering a wide range of pumps for diverse applications.
               </p>
@@ -81,18 +81,18 @@ const Footer = () => {
               <h4 className="footer-widget-title">Quick Links</h4>
               <ul className="footer-list">
                 <li>
-                  <Link to="/">
+                  <Link to="/" onClick={() => window.scrollTo(0, 0)}>
                     <i className="fas fa-caret-right" /> Home
                   </Link>
                 </li>
                 <li>
-                  <Link to="/about">
-                    <i className="fas fa-caret-right" /> About
+                  <Link to="/about" onClick={() => window.scrollTo(0, 0)}>
+                    <i className="fas fa-caret-right"  /> About
                   </Link>
                 </li>
                 <li>
-                  <Link to="/contact">
-                    <i className="fas fa-caret-right" /> Contact
+                  <Link to="/contact" onClick={() => window.scrollTo(0, 0)}>
+                    <i className="fas fa-caret-right"  /> Contact
                   </Link>
                 </li>
                
@@ -104,23 +104,23 @@ const Footer = () => {
               <h4 className="footer-widget-title">Our Services</h4>
               <ul className="footer-list">
                 <li>
-                  <Link to="/rental-services">
+                  <Link to="/rental-services" onClick={() => window.scrollTo(0, 0)}>
                     <i className="fas fa-caret-right" /> Rental Services
                   </Link>
                 </li>
                 <li>
-                  <Link to="/pump-repairing-services">
+                  <Link to="/pump-repairing-services" onClick={() => window.scrollTo(0, 0)}>
                     <i className="fas fa-caret-right" /> Pump Repairing Services
                   </Link>
                 </li>
                 <li>
-                  <Link to="/dewatering-pump-hiring-services">
+                  <Link to="/dewatering-pump-hiring-services" onClick={() => window.scrollTo(0, 0)}>
                     <i className="fas fa-caret-right" /> Dewatering Pump Hiring Services
                   </Link>
                 </li>
                 <li>
-                  <Link to="/rebaring-services">
-                    <i className="fas fa-caret-right" /> Rebaring Service
+                  <Link to="/repairing-services" onClick={() => window.scrollTo(0, 0)}>
+                    <i className="fas fa-caret-right" /> Repairing Service
                   </Link>
                 </li>
                 
@@ -132,22 +132,22 @@ const Footer = () => {
               <h4 className="footer-widget-title">Our Products</h4>
               <ul className="footer-list">
                 <li>
-                  <Link to="/dewatering-pump">
+                  <Link to="/dewatering-pump" onClick={() => window.scrollTo(0, 0)}>
                     <i className="fas fa-caret-right" />  Dewatering Pump
                   </Link>
                 </li>
                 <li>
-                  <Link to="/water-pump">
+                  <Link to="/water-pump" onClick={() => window.scrollTo(0, 0)}>
                     <i className="fas fa-caret-right" />  Water Pump
                   </Link>
                 </li>
                 <li>
-                  <Link to="/booster-pump">
+                  <Link to="/booster-pump" onClick={() => window.scrollTo(0, 0)}>
                     <i className="fas fa-caret-right" /> Booster Pump
                   </Link>
                 </li>
                 <li>
-                  <Link to="/borewell-pump">
+                  <Link to="/borewell-pump" onClick={() => window.scrollTo(0, 0)}>
                     <i className="fas fa-caret-right" />  Borewell Pump
                   </Link>
                 </li>
@@ -164,8 +164,8 @@ const Footer = () => {
         <div className="row d-flex justify-content-between ">
           <div className="col-md-3 align-self-center">
             <p className="copyright-text">
-              © Copyright <span id="date" />{" "}
-              <a href="index.html#"> </a> All Rights Reserved.
+              © Mansi Engineering & Electricals.<br/><span id="date" />{" "}
+              All Rights Reserved.
             </p>
           </div>
           <div className="col-md-3 align-self-center">

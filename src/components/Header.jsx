@@ -140,8 +140,8 @@ const Header = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link className="dropdown-item" to="/rebaring-services">
-                    Rebaring Services
+                    <Link className="dropdown-item" to="/repairing-services">
+                    Repairing Services
                     </Link>
                   </li>
             </ul>

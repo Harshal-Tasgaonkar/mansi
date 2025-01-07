@@ -49,7 +49,7 @@ function App() {
             <Route path="/rental-services" element={<RentalServices />} />
             <Route path="/pump-repairing-services" element={<PumpRepairingServices />} />
             <Route path="/dewatering-pump-hiring-services" element={<DewateringPumpHiringServices />} />
-            <Route path="/rebaring-services" element={<RebaringServices />} />
+            <Route path="/repairing-services" element={<RebaringServices />} />
 
 
           </Routes>

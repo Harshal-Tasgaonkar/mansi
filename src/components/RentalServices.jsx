@@ -52,9 +52,9 @@ const RentalServices = () => {
                                <i className="fas fa-arrow-right-long"></i>
                                  Dewatering Pump Hiring Services
                                </Link>
-                               <Link to="/rebaring-services">
+                               <Link to="/repairing-services">
                                <i className="fas fa-arrow-right-long"></i>
-                                 Rebaring Service
+                                 Repairing Service
                                </Link>
                                
                                

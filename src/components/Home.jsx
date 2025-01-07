@@ -1,5 +1,3 @@
-
-
 import React, { useEffect, useRef } from 'react';
 import Header from './Header'
 
@@ -326,7 +324,7 @@ const Home = () => {
                       Top-quality rental services with well-maintained equipment and exceptional customer support.
                     </p>
                     <div className="service-arrow">
-                      <Link to="/rental-services">
+                      <Link to="/rental-services" className="theme-btn text-white" onClick={() => window.scrollTo(0, 0)}>
                         Read More
                         <i className="fas fa-arrow-right-long" />
                       </Link>
@@ -350,7 +348,7 @@ const Home = () => {
                       Mansi Engineering offers expert pump repairing services for residential, commercial, industrial.
                     </p>
                     <div className="service-arrow">
-                      <Link to="/pump-repairing-services">
+                      <Link to="/pump-repairing-services" className="theme-btn text-white" onClick={() => window.scrollTo(0, 0)}>
                         Read More
                         <i className="fas fa-arrow-right-long" />
                       </Link>
@@ -374,7 +372,7 @@ const Home = () => {
                       Mansi Engineering offers reliable dewatering pump hiring services for various industries.
                     </p>
                     <div className="service-arrow">
-                      <Link to="/dewatering-pump-hiring-services">
+                      <Link to="/dewatering-pump-hiring-services" className="theme-btn text-white" onClick={() => window.scrollTo(0, 0)}>
                         Read More
                         <i className="fas fa-arrow-right-long" />
                       </Link>
@@ -392,13 +390,13 @@ const Home = () => {
                   </div>
                   <div className="service-content">
                     <h3 className="service-title">
-                      <a href="service-single.html">Rebaring Service</a>
+                      <a href="service-single.html">Repairing Service</a>
                     </h3>
                     <p className="service-text">
                       Mansi Engineering provides expert rebaring services to strengthen concrete structures effectively.
                     </p>
                     <div className="service-arrow">
-                      <Link to="/rebaring-services">
+                      <Link to="/repairing-services" className="theme-btn text-white" onClick={() => window.scrollTo(0, 0)}>
                         Read More
                         <i className="fas fa-arrow-right-long" />
                       </Link>
@@ -441,7 +439,11 @@ const Home = () => {
                       <h5>
                         <a >Dewatering Pumps</a>
                       </h5>
-                      <Link to="/dewatering-pump" className="theme-btn">
+                      <Link 
+                        to="/dewatering-pump" 
+                        className="theme-btn" 
+                        onClick={() => window.scrollTo(0, 0)}
+                      >
                         Read More
                         <i className="fas fa-arrow-right-long"></i>
                       </Link>
@@ -460,7 +462,7 @@ const Home = () => {
                       <h5>
                         <a >Water Pumps</a>
                       </h5>
-                      <Link to="/water-pump" className="theme-btn">
+                      <Link to="/water-pump" className="theme-btn" onClick={() => window.scrollTo(0, 0)} >
                         Read More
                         <i className="fas fa-arrow-right-long"></i>
                       </Link>
@@ -479,7 +481,7 @@ const Home = () => {
                       <h5>
                         <a >Booster Pump</a>
                       </h5>
-                      <Link to="/booster-pump" className="theme-btn">
+                      <Link to="/booster-pump" className="theme-btn" onClick={() => window.scrollTo(0, 0)}>
                         Read More
                         <i className="fas fa-arrow-right-long"></i>
                       </Link>
@@ -498,7 +500,7 @@ const Home = () => {
                       <h5>
                         <a >Borewell Pump</a>
                       </h5>
-                      <Link to="/borewell-pump" className="theme-btn">
+                      <Link to="/borewell-pump" className="theme-btn" onClick={() => window.scrollTo(0, 0)}>
                         Read More
                         <i className="fas fa-arrow-right-long"></i>
                       </Link>

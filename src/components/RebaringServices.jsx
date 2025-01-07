@@ -21,12 +21,12 @@ const RebaringServices = () => {
     style={{ backgroundImage: `url(${breadcrumb})` }}
   >
     <div className="container">
-      <h2 className="breadcrumb-title">Rebaring Service</h2>
+      <h2 className="breadcrumb-title">Reparing Service</h2>
       <ul className="breadcrumb-menu">
         <li>
           <Link href="/">Home</Link>
         </li>
-        <li className="active"><i className="fa-solid fa-angles-right me-1"></i>Rebaring Service</li>
+        <li className="active"><i className="fa-solid fa-angles-right me-1"></i>Reparing Service</li>
       </ul>
     </div>
   </div>
@@ -53,9 +53,9 @@ const RebaringServices = () => {
                                <i className="fas fa-arrow-right-long"></i>
                                  Dewatering Pump Hiring Services
                                </Link>
-                               <Link to="/rebaring-services">
+                               <Link to="/repairing-services">
                                <i className="fas fa-arrow-right-long"></i>
-                                 Rebaring Service
+                                 Repairing Service
                                </Link>
                                
                                
@@ -70,7 +70,7 @@ const RebaringServices = () => {
                 <img src={BorewellPumpservice} alt="thumb" />
               </div>
               <div className="service-details">
-                <h3 className="mb-20">Rebaring Service</h3>
+                <h3 className="mb-20">Reparing Service</h3>
                 <p className="mb-20">
                 Mansi Engineering & Electricals in Pune India, offers repair and expansion services for a variety of structures as part of its commitment to serving the demands of civil and construction sites. Our specialized staff fortifies the beams of these constructions using cutting-edge equipment and chemical procedures to make sure they can bear the tension of concrete. Our skilled personnel continuously monitor the rebaring services process to provide the best outcomes with a focus on upholding high-quality standards.
                 </p>
