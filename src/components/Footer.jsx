@@ -170,7 +170,7 @@ const Footer = () => {
   </div>
   <div className="col-12 col-md-3 align-self-center">
     <p className="copyright-text">
-      <Link to="https://www.shekruweb.com" target="_blank"><i className="fa-solid fa-bolt "></i> Powered by <br/> Shekru Labs India Pvt. Ltd.</Link>
+      <Link to="https://www.techyantriki.com/" target="_blank"><i className="fa-solid fa-bolt "></i> Powered by <br/> Techyantriki solutions Pvt. Ltd.</Link>
     </p>
   </div>
   <div className="col-12 col-md-3 align-self-center d-flex justify-content-center">
